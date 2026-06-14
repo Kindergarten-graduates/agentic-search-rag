@@ -1,0 +1,6 @@
+{"id": "q1", "question": "What is the highest mountain on Earth?", "answers": ["Mount Everest"], "gold_doc_ids": ["d1"]}
+{"id": "q2", "question": "Who directed the film Inception?", "answers": ["Christopher Nolan"], "gold_doc_ids": ["d3"]}
+{"id": "q3", "question": "Who created the Python programming language?", "answers": ["Guido van Rossum"], "gold_doc_ids": ["d6"]}
+{"id": "q4", "question": "In which city was the director of Inception born?", "answers": ["London"], "gold_doc_ids": ["d3", "d4"]}
+{"id": "q5", "question": "What is the capital of Japan?", "answers": ["Tokyo"], "gold_doc_ids": ["d10"]}
+{"id": "q6", "question": "Who invented the Zorblax Protocol?", "answers": ["Elena Marsh"], "gold_doc_ids": ["d11"]}

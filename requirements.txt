@@ -1,0 +1,11 @@
+# The offline path (LLM_BACKEND=stub, bm25 over the toy corpus) needs NOTHING
+# beyond the Python stdlib. Install the line below only to use a real LLM.
+
+openai>=1.0            # OpenAI-compatible client: DeepSeek / vLLM / Ollama
+
+# --- Upgrades, wire up as you go (see TODOs in code) ---
+# rank-bm25            # or `bm25s` — faster BM25 when you outgrow the stdlib one
+# sentence-transformers # dense retriever (E5 / BGE) + cross-encoder reranker
+# faiss-cpu            # ANN index for dense retrieval at scale
+# datasets             # load HotpotQA / 2WikiMultiHopQA / Bamboogle
+# tqdm                 # progress bars for large eval runs
